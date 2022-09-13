@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="4183683808551754">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="8400490577261936" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">MainMenuStart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6809952181104038" type="System">
+                    <param id="0" name="Layout">Difficulty</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3075565963776786">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="5417435309629476" type="Mouse">
+                    <param id="0" name="Object">MainMenuStart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6924079837236829" type="MainMenuStart">
+                    <param id="0" name="Animation">&quot;Clicked&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="7401318394844208" type="MainMenuStart">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7370935793705863">
+            <conditions>
+                <condition id="-22" name="Else" sid="3771991228604614" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="1700564900268821" type="MainMenuStart">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="1014960688685406" type="MainMenuStart">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

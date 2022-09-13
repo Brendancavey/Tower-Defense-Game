@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 4</name>
+    <events>
+        <event-block sid="745353504880917">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7190656095909861" type="Mouse">
+                    <param id="0" name="Object">Hard</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="598758951945176" type="Hard">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+                <action id="0" name="Set text" sid="228654661252113" type="DifficultyExplain">
+                    <param id="0" name="Text">&quot;Start with 50 Health and 9 Tower Supplies&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7324891527940709">
+            <conditions>
+                <condition id="-22" name="Else" sid="1145700695546354" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="2685204026019689" type="Hard">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2427154769854027">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="2043946579065667" type="Mouse">
+                    <param id="0" name="Object">Hard2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="1406627981924531" type="Hard2">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+                <action id="0" name="Set text" sid="2540208737646748" type="DifficultyExplain">
+                    <param id="0" name="Text">&quot;Start with 25 Health and 6 Tower Supplies&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1498010891032725">
+            <conditions>
+                <condition id="-22" name="Else" sid="7836727923887385" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6125933240505293" type="Hard2">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4701033055684764">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="955752021718554" type="Mouse">
+                    <param id="0" name="Object">Hard3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="9522374079249776" type="Hard3">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+                <action id="0" name="Set text" sid="5883421997702717" type="DifficultyExplain">
+                    <param id="0" name="Text">&quot;Start with 10 Health and 4 Tower Supplies&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3922656832652694">
+            <conditions>
+                <condition id="-22" name="Else" sid="726186135835033" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="9612045863416285" type="Hard3">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9739974949647148">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="3573548634458664" type="Mouse">
+                    <param id="0" name="Object">HardcoreMode</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="5461038877815371" type="HardcoreMode">
+                    <param id="0" name="Scale">1.2</param>
+                </action>
+                <action id="0" name="Set text" sid="5047937008115219" type="DifficultyExplain">
+                    <param id="0" name="Text">&quot;If an enemy gets through, destroy a turret at random.&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4736150163550513">
+            <conditions>
+                <condition id="-22" name="Else" sid="616768491275766" type="System" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="9735841957499416" type="HardcoreMode">
+                    <param id="0" name="Scale">1.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5045693267315727">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6251283784539176" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Hard</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2444164077507237" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+                <action id="-9" name="Set value" sid="9093400321312598" type="System">
+                    <param id="0" name="Variable">Health</param>
+                    <param id="1" name="Value">50</param>
+                </action>
+                <action id="-9" name="Set value" sid="5819696121510283" type="System">
+                    <param id="0" name="Variable">TowerSupplies</param>
+                    <param id="1" name="Value">9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9162002008774587">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9614337061535979" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Hard2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1500351907620016" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+                <action id="-9" name="Set value" sid="7350867766582978" type="System">
+                    <param id="0" name="Variable">Health</param>
+                    <param id="1" name="Value">25</param>
+                </action>
+                <action id="-9" name="Set value" sid="8580813808408108" type="System">
+                    <param id="0" name="Variable">TowerSupplies</param>
+                    <param id="1" name="Value">6</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2596885758223539">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2043466715566505" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Hard3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6223865206489826" type="System">
+                    <param id="0" name="Layout">Game</param>
+                </action>
+                <action id="-9" name="Set value" sid="4886030044948171" type="System">
+                    <param id="0" name="Variable">Health</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-9" name="Set value" sid="5928651335741802" type="System">
+                    <param id="0" name="Variable">TowerSupplies</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8689369911615019">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9124346246897863" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">HardcoreMode</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-14" name="Toggle boolean" sid="2121729547348831" type="HardcoreMode">
+                    <param id="0" name="Instance variable">on</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8609280204299854">
+            <conditions>
+                <condition id="-8" name="Is boolean instance variable set" sid="5390210142669518" type="HardcoreMode">
+                    <param id="0" name="Instance variable">on</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8013791445570628" type="System">
+                    <param id="0" name="Variable">HardCoreMode</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="6062239444508321" type="HardcoreMode">
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Set text" sid="9275828118894621" type="HardCoreOn">
+                    <param id="0" name="Text">&quot;On&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3104857578107006">
+            <conditions>
+                <condition id="-22" name="Else" sid="9029982933102965" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="822851071458032" type="System">
+                    <param id="0" name="Variable">HardCoreMode</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="6769734455216835" type="HardcoreMode">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="0" name="Set text" sid="6888563066677732" type="HardCoreOn">
+                    <param id="0" name="Text">&quot;Off&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

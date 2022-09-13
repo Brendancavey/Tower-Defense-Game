@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">MainMenu</layout>
+        <event-sheet active="1" order="1">Event sheet 1</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="1" name="Turrets" />
+        <family expanded="1" name="Enemies" />
+        <family expanded="1" name="BossEnemies" />
+        <family expanded="1" name="YellowEnemies" />
+        <family expanded="1" name="GreenEnemies" />
+        <family expanded="1" name="AllEnemies" />
+        <family expanded="1" name="Bullets" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Enemy/" />
+        <folder expanded="1" path="animation-folder/EnemyTarget/" />
+        <folder expanded="1" path="animation-folder/Turret/" />
+        <folder expanded="1" path="animation-folder/Bullet/" />
+        <folder expanded="1" path="animation-folder/EnemySpawner/" />
+        <folder expanded="1" path="animation-folder/background/" />
+        <folder expanded="1" path="animation-folder/Wall_not_turretable/" />
+        <folder expanded="1" path="animation-folder/Turret2/" />
+        <folder expanded="1" path="animation-folder/Bullet2/" />
+        <folder expanded="1" path="animation-folder/Enemy2/" />
+        <folder expanded="1" path="animation-folder/BossEnemy/" />
+        <folder expanded="1" path="animation-folder/BossEnemy2/" />
+        <folder expanded="1" path="animation-folder/Turret3/" />
+        <folder expanded="1" path="animation-folder/Bullet3/" />
+        <folder expanded="1" path="animation-folder/Turret4/" />
+        <folder expanded="1" path="animation-folder/MainMenuStart/" />
+        <folder expanded="1" path="animation-folder/WaveStart/" />
+        <folder expanded="1" path="animation-folder/TurretSticker/" />
+        <folder expanded="1" path="animation-folder/TurretSticker2/" />
+        <folder expanded="1" path="animation-folder/TurretSticker3/" />
+        <folder expanded="1" path="animation-folder/TurretSticker4/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Bullet4/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/UINoticeMenu/" />
+        <folder expanded="1" path="animation-folder/UpgradeButton/" />
+        <folder expanded="1" path="animation-folder/UpgradeButton2/" />
+        <folder expanded="1" path="animation-folder/FastForward/" />
+        <folder expanded="1" path="animation-folder/SlowDown/" />
+        <folder expanded="1" path="animation-folder/SuperBoss/" />
+        <folder expanded="1" path="animation-folder/SuperSuperBoss/" />
+        <folder expanded="1" path="animation-folder/UpgradeButton3/" />
+        <folder expanded="1" path="animation-folder/Spin2WinBullets/" />
+        <folder expanded="1" path="animation-folder/InfectedBullet/" />
+        <folder expanded="1" path="animation-folder/SpecialUpgradeMenu/" />
+        <folder expanded="1" path="animation-folder/SpecialUpgradeMenu2/" />
+        <folder expanded="1" path="animation-folder/SpecialUpgradeMenu3/" />
+        <folder expanded="1" path="animation-folder/TutorialMenu/" />
+        <folder expanded="1" path="animation-folder/FrostboltBullet/" />
+        <folder expanded="1" path="animation-folder/BlackBoltBullet/" />
+        <folder expanded="1" path="animation-folder/swap/" />
+        <folder expanded="1" path="animation-folder/MainMenuStart2/" />
+        <folder expanded="1" path="animation-folder/MainMenuStart3/" />
+        <folder expanded="1" path="animation-folder/Arrow/" />
+        <folder expanded="1" path="animation-folder/ArrowTarget/" />
+        <folder expanded="1" path="animation-folder/EnemySticker/" />
+        <folder expanded="1" path="animation-folder/EnemySticker2/" />
+        <folder expanded="1" path="animation-folder/MainMenuStart4/" />
+        <folder expanded="1" path="animation-folder/Hard/" />
+        <folder expanded="1" path="animation-folder/Hard2/" />
+        <folder expanded="1" path="animation-folder/Hard3/" />
+        <folder expanded="1" path="animation-folder/HardcoreMode/" />
+        <folder expanded="1" path="animation-folder/YEs/" />
+        <folder expanded="1" path="animation-folder/no/" />
+        <folder expanded="1" path="animation-folder/background2/" />
+        <folder expanded="1" path="animation-folder/background3/" />
+    </folders-expanded>
+</c2uistate>

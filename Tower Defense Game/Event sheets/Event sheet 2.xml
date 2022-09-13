@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <event-block sid="4189441912293062">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4463157552049305" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="8292877519789967" type="Audio">
+                    <param id="0" name="Audio file">DST-TowerDefenseTheme</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="5138922002518005" title="ScrollOvers">
+            <sub-events>
+                <event-block sid="457743888712777">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="12538693383173" type="Mouse">
+                            <param id="0" name="Object">MainMenuStart</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="5828725015459208" type="MainMenuStart">
+                            <param id="0" name="Animation">&quot;Clicked&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="9386452711998235" type="MainMenuStart">
+                            <param id="0" name="Scale">1.2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6258440010465115">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5952753402424786" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="7844630158001646" type="MainMenuStart">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="3992266061476876" type="MainMenuStart">
+                            <param id="0" name="Scale">1.0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4785474532783456">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="477895581723307" type="Mouse">
+                            <param id="0" name="Object">MainMenuStart2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="332993957035589" type="MainMenuStart2">
+                            <param id="0" name="Animation">&quot;Clicked&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="5450295461578122" type="MainMenuStart2">
+                            <param id="0" name="Scale">1.2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1399640448897092">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="7275255794891986" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="3210085938047465" type="MainMenuStart2">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="4740301033712074" type="MainMenuStart2">
+                            <param id="0" name="Scale">1.0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8987735759966049">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="3104497282403078" type="Mouse">
+                            <param id="0" name="Object">MainMenuStart3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1386454492846455" type="MainMenuStart3">
+                            <param id="0" name="Animation">&quot;Clicked&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="506109665384096" type="MainMenuStart3">
+                            <param id="0" name="Scale">1.2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="977786160236416">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="997468407156883" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="162724565669547" type="MainMenuStart3">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="4924805922296903" type="MainMenuStart3">
+                            <param id="0" name="Scale">1.0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="6288800955179584">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="2218329506618839" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">MainMenuStart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3546183370362679" type="System">
+                    <param id="0" name="Layout">Difficulty</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9590639736211687">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4596117856259961" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">MainMenuStart2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="551467139817242" type="System">
+                    <param id="0" name="Layout">HowToPlay</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6535127779561762">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5619481105124176" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">MainMenuStart3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="8213287709899815" type="Browser" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
