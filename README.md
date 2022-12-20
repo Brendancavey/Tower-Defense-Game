@@ -12,6 +12,16 @@ This tower defense game contains a single level with many waves of gradually inc
  <li>Windows 10</li>
 
 <h2>Screenshots</h2>
- 
+<p align="center">How To Play</p>
 
+![](Screenshots/screenshot1.JPG)
 
+<p align="center">Choose Difficulty</p>
+
+![](Screenshots/screenshot2.JPG)
+
+<p align="center">Gameplay</p>
+
+![](Screenshots/screenshot4.JPG)
+![](Screenshots/screenshot6.JPG)
+![](Screenshots/screenshot11.JPG)
